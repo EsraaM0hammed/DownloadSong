@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <!-- Image view to show image after downloading -->
+
+    <Button
+        android:id="@+id/btnProgressBar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Download" />
+
+   <!--  <ImageView
+        android:id="@+id/my_song"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnProgressBar"
+        android:layout_marginTop="57dp" /> -->
+
+</RelativeLayout>
